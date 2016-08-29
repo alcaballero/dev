@@ -1,0 +1,80 @@
+@import url(normalize.css);
+@import url(fonts.css);
+@import url(icons.css);
+@import url(sitewide-defs.less);
+@import url(ui_elements.less);
+@import url(mobile.less);
+@import url(desktop.less);
+
+/* Selection */
+::selection { background: rgba(0, 186, 255, 0.33); }
+
+/* TEXT */
+h1, h2, h3, h4, h5, h6 { line-height: 1.66; }
+h1 {
+	font-size: 2.5em;
+	font-weight: 300;
+}
+h2 {
+	font-size: 1.5em;
+	text-transform: lowercase;
+	.titleFont;
+}
+h3 {
+	font-size: 1.25em;
+}
+h4, h5 {
+	font-weight: bold;
+}
+h6 {
+	.subFont;
+}
+.center { text-align: center; }
+
+/* TABLES */
+table {
+	width: 100%;
+	border-spacing: 0;
+}
+
+/* LAYOUT */
+.left { float: left; }
+.right { float: right; }
+.clear { clear: both; }
+.clearfix {
+	display: block;
+	content: "";
+	clear: both;
+}
+
+
+/* CSS for Safari Webkit Only */
+body:not(:root:root) {
+	.safariFilter {
+		background: fade(@hex-lightgray, 60%) !important;
+		-webkit-backdrop-filter: blur(15px);
+	}
+	.safariFilter-dark {
+		background: fade(@hex-darkgray, 60%) !important;
+		-webkit-backdrop-filter: blur(15px);
+	}
+	#header {
+		.navbar {
+			.container {
+				.globalnav {
+					li {
+						ul {
+							background: fade(@hex-lightgray, 70%);
+							-webkit-backdrop-filter: blur(24px);
+						}
+					}
+				}
+			}
+		}
+		.alertbar {
+			.container {
+				p {}
+			}
+		}
+	}
+}

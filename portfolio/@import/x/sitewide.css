@@ -1,0 +1,78 @@
+@import url(normalize.css);
+@import url(fonts.css);
+@import url(icons.css);
+
+/* FONT CHOICES */
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+h1 {
+	font-family: 'Roboto Slab', serif;
+}
+h6 {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* Selection */
+::selection { background: rgba(0, 186, 255, 0.33); }
+
+/* TEXT */
+h1, h2, h3, h4, h5, h6, p { line-height: 1.66; }
+h1 {
+	font-size: 2.5em;
+	font-weight: 300;
+}
+h2 { font-size: 1.875em; }
+h3 { font-size: 1.25em; }
+h4 { font-weight: bold; }
+p { margin: 0 0 1.125em; }
+.center { text-align: center; }
+.text-right { text-align: right; }
+.text-left { text-align: left; }
+
+/* TABLES */
+table {
+	width: 100%;
+	border-spacing: 0;
+}
+
+/* ITEM LISTS */
+ul { list-style: disc outside; }
+ol { list-style: decimal outside; }
+
+ul li a,
+ol li a {
+	position: relative;
+	display: block;
+	padding: .375em 1em .375em .5em;
+	border: 1px solid rgba(170, 170, 170, .25);
+	border-width: 1px 0 0;
+	line-height: 2em;
+}
+ul li:last-of-type a,
+ol li:last-of-type a { border-bottom-width: 1px; }
+
+ul li a::before,
+ol li a::before {
+	content: "\f105";
+	font-size: 1.75em;
+	color: rgba(170, 170, 170, .25);
+	position: absolute;
+	top: 50%;
+	right: 0;
+}
+
+.content ol,
+.content ul {
+	padding: .75em 2em;
+	border-left: 2px solid rgb(230, 230, 230);
+}
+
+/* LAYOUT */
+.left { float: left; }
+.right { float: right; }
+.clear { clear: both; }
+.container {
+	margin: 0 auto;
+	max-width: 80em;
+}

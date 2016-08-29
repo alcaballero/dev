@@ -1,0 +1,102 @@
+/* All BUTTONS */
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+a[class*="button"] {
+	display: inline-block;
+	position: relative;
+	width: auto;
+	float: none;
+	font: inherit;
+	margin: .5em .125em;
+	border-radius: 3px;
+	-webkit-transition: all .5s;
+	transition: all .5s;
+	-webkit-font-smoothing: inherit;
+}
+
+a[class*="button"][class*="icon"]::before,
+a[class*="button"][class*="icon"]::after {
+	font-size: 1.125em;
+	top: .0625em;
+}
+
+/* Normal Buttons */
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+a.button {
+	font-size: 18px;
+	padding: .5em 1.5em;
+	color: rgb(255,255,255);
+	background: #DF1C24;
+	border: 1px solid #DF1C24;
+	text-transform: lowercase;
+}
+
+/* Medium Buttons */
+button.button-md,
+input.button-md,
+a.button-md {
+	padding: .4em 1em;
+	color: rgba(0, 0, 0, .6);
+	background: none;
+	border: 1px solid rgba(0, 0, 0, .25);
+}
+
+/* Small Buttons */
+button.button-sm,
+input.button-sm,
+a.button-sm {
+	font-size: 12px;
+	padding: .33em 1.25em;
+	color: rgb(120, 120, 120);
+	background: rgb(244, 244, 244);
+	border: 1px solid rgb(190, 190, 190);
+}
+
+/* Text Fields */
+input[type="text"] {
+	padding: .5em 1em;
+	/*border: 1px solid rgba(0, 0, 0, .25);*/
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, .3);
+	border-radius: 2px;
+	background: rgb(255, 255, 255);
+}
+
+/* Selection Menus */
+select {
+	font-size: 16px;
+	line-height: 1;
+	padding: .25em 2em .25em .5em;
+	background: lighten(@hex-lightgray, 4%) @icon-expand no-repeat right center;
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, .3);
+	border: none;
+	border-radius: 3px;
+	-webkit-appearance: none;
+}
+
+/* Desktop Hover classes */
+@media only screen and (min-width: 50em) {
+	button:hover,
+	input[type="button"]:hover,
+	input[type="reset"]:hover,
+	input[type="submit"]:hover,
+	a.button:hover {
+		background: #F03D44;
+	}
+	button.button-md:hover,
+	input.button-md:hover,
+	a.button-md:hover {
+		background: rgba(180, 180, 180, .2);
+	}
+	button.button-sm:hover,
+	input.button-sm:hover,
+	a.button-sm:hover {
+		color: inherit;
+		background: rgb(234, 234, 234);
+		border-color: rgb(180, 180, 180);
+	}
+}

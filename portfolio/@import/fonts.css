@@ -1,0 +1,125 @@
+/* Source Sans Pro */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: normal;
+	src: url(fonts/sourcesanspro/sourcesanspro-regular.eot);
+	src: url(fonts/sourcesanspro/sourcesanspro-regular.eot?#iefix) format('embedded-opentype'),
+		url(fonts/sourcesanspro/sourcesanspro-regular.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: italic;
+	font-weight: normal;
+	src: url(fonts/sourcesanspro/sourcesanspro-italic.eot);
+	src: url(fonts/sourcesanspro/sourcesanspro-italic.eot?#iefix) format('embedded-opentype'),
+		url(fonts/sourcesanspro/sourcesanspro-italic.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 300;
+	src: url(fonts/sourcesanspro/opensans-light.eot);
+	src: url(fonts/sourcesanspro/opensans-light.eot?#iefix) format('embedded-opentype'),
+		url(fonts/sourcesanspro/sourcesanspro-light.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: italic;
+	font-weight: 300;
+	src: url(fonts/sourcesanspro/opensans-lightitalic.eot);
+	src: url(fonts/sourcesanspro/opensans-lightitalic.eot?#iefix) format('embedded-opentype'),
+		url(fonts/sourcesanspro/sourcesanspro-lightitalic.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 700;
+	src: url(fonts/sourcesanspro/sourcesanspro-bold.eot);
+	src: url(fonts/sourcesanspro/sourcesanspro-bold.eot?#iefix) format('embedded-opentype'),
+		url(fonts/sourcesanspro/sourcesanspro-bold.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: italic;
+	font-weight: 700;
+	src: url(fonts/sourcesanspro/sourcesanspro-bolditalic.eot);
+	src: url(fonts/sourcesanspro/sourcesanspro-bolditalic.eot?#iefix) format('embedded-opentype'),
+		url(fonts/sourcesanspro/sourcesanspro-bolditalic.ttf) format('truetype');
+}
+
+/* Roboto Slab */
+@font-face {
+	font-family: 'Roboto Slab';
+	font-style: normal;
+	font-weight: normal;
+	src: url(fonts/robotoslab/robotoslab-regular.eot);
+	src: url(fonts/robotoslab/robotoslab-regular.eot?#iefix) format('embedded-opentype'),
+		url(fonts/robotoslab/robotoslab-regular.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'Roboto Slab';
+	font-style: normal;
+	font-weight: 300;
+	src: url(fonts/robotoslab/robotoslab-light.eot);
+	src: url(fonts/robotoslab/robotoslab-light.eot?#iefix) format('embedded-opentype'),
+		url(fonts/robotoslab/robotoslab-light.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'Roboto Slab';
+	font-style: normal;
+	font-weight: 700;
+	src: url(fonts/robotoslab/robotoslab-bold.eot);
+	src: url(fonts/robotoslab/robotoslab-bold.eot?#iefix) format('embedded-opentype'),
+		url(fonts/robotoslab/robotoslab-bold.ttf) format('truetype');
+}
+
+/* Roboto Condensed */
+@font-face {
+	font-family: 'Roboto Condensed';
+	font-style: normal;
+	font-weight: normal;
+	src: url(fonts/robotocon/robotocondensed-regular.eot);
+	src: url(fonts/robotocon/robotocondensed-regular.eot?#iefix) format('embedded-opentype'),
+		url(fonts/robotocon/robotocondensed-regular.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'Roboto Condensed';
+	font-style: italic;
+	font-weight: normal;
+	src: url(fonts/robotocon/robotocondensed-italic.eot);
+	src: url(fonts/robotocon/robotocondensed-italic.eot?#iefix) format('embedded-opentype'),
+		url(fonts/robotocon/robotocondensed-italic.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'Roboto Condensed';
+	font-style: normal;
+	font-weight: 300;
+	src: url(fonts/robotocon/robotocondensed-light.eot);
+	src: url(fonts/robotocon/robotocondensed-light.eot?#iefix) format('embedded-opentype'),
+		url(fonts/robotocon/robotocondensed-light.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'Roboto Condensed';
+	font-style: italic;
+	font-weight: 300;
+	src: url(fonts/robotocon/robotocondensed-lightitalic.eot);
+	src: url(fonts/robotocon/robotocondensed-lightitalic.eot?#iefix) format('embedded-opentype'),
+		url(fonts/robotocon/robotocondensed-lightitalic.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'Roboto Condensed';
+	font-style: normal;
+	font-weight: 700;
+	src: url(fonts/robotocon/robotocondensed-bold.eot);
+	src: url(fonts/robotocon/robotocondensed-bold.eot?#iefix) format('embedded-opentype'),
+		url(fonts/robotocon/robotocondensed-bold.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'Roboto Condensed';
+	font-style: italic;
+	font-weight: 700;
+	src: url(fonts/robotocon/robotocondensed-bolditalic.eot);
+	src: url(fonts/robotocon/robotocondensed-bolditalic.eot?#iefix) format('embedded-opentype'),
+		url(fonts/robotocon/robotocondensed-bolditalic.ttf) format('truetype');
+}
